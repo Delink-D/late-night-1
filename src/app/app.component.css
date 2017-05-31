@@ -14,3 +14,19 @@ h1 {
 	background: #5c8297;
 	margin-top: 0;
 }
+.additem {
+	position: relative;
+	padding-bottom: 0px;
+	height: 30px;
+}
+.addtodo {
+	width: 70%;
+	height: 30px;
+	padding: 5px;
+	font-size: 20px; 
+}
+.additembtn {
+	width: 75px;
+	height: 45px;
+	cursor: pointer;
+}
