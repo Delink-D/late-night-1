@@ -30,3 +30,27 @@ h1 {
 	height: 45px;
 	cursor: pointer;
 }
+ul {
+	list-style: none;
+	font-size: 20px;
+	color: #686868;
+	margin-left: -40px;
+	margin-bottom: 0px;
+}
+li {
+	border: 1px solid #bfbfbf;
+	background: #d7d7d7;
+	padding: 10px 0;
+	margin-bottom: 5px;
+}
+span.del {
+	color: red;
+	font-size: 24px;
+	cursor: pointer;
+	position: relative;
+	float: right;
+	margin-right: 20px;
+}
+span.del:hover {
+	font-weight: bolder;
+}
