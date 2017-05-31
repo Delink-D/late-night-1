@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+	// an array to hold all the todos
+	todos = ["Angular4","PouchDb","CouchDb"];
 }
