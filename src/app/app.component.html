@@ -8,9 +8,9 @@
 	</div>
 
 	<ul>
-		<li *ngFor = "let item of todos">
+		<li *ngFor = "let item of todos; let id = 'index'">
 			{{item}}
-			<span class="del">X</span>
+			<span class="del" (click) = "removeItem(id)">X</span>
 		</li>
 	</ul>
 </div>
