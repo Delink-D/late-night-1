@@ -2,8 +2,9 @@
 	<h1>Late Night ToDo</h1>
 
 	<div class="additem">
-		<input type="text" class="addtodo" placeholder="Add Item">
-		<button type="button" class="additembtn">Add Item</button>
+		<input type="text" [(ngModel)] = "newItem" class="addtodo" placeholder="Add Item">
+		<button (click) = "newItemPush()" type="button" class="additembtn">Add Item</button><br>
+		<small *ngIf = "showError" class="err">You can't have an empty Item!</small>
 	</div>
 
 	<ul>
