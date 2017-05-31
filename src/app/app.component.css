@@ -1,0 +1,16 @@
+.main {
+	width: 30%;
+	margin: 20px auto;
+	border: 2px solid #d7d7d7;
+	border-bottom: 0px;
+	border-radius: 4px;
+	text-align: center;
+	color: #f2f2f2;
+	font-family: sans-serif;
+}
+h1 {
+	text-align: center;
+	padding: 20px 0;
+	background: #5c8297;
+	margin-top: 0;
+}

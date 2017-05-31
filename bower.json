@@ -1,0 +1,24 @@
+{
+  "name": "late-night-1",
+  "description": "Late Night all alone with Angular-4",
+  "main": "index.html",
+  "authors": [
+    "Delink-D <delinkdesigns@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Angular"
+  ],
+  "homepage": "https://github.com/Delink-D/late-night",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
